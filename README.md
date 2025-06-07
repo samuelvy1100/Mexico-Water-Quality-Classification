@@ -58,7 +58,7 @@
    - **Key Takeaway**: A data-driven approach with ensemble methods can reliably classify water quality and support environmental decision-making.  
 ---
 #### 🔧 Technologies Used
-- **Python 3.x**  
+- **Python 3.12**  
 - **pandas & NumPy** for data manipulation  
 - **scikit-learn** for preprocessing, model training, and hyperparameter tuning  
 - **Matplotlib & Seaborn** for exploratory data visualization  
