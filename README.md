@@ -1,10 +1,10 @@
 ## Mexico's Water Quality Classification 
----
 
 **🔗 Notebook**: [`Mexico's Water Quality Classification.ipynb`](./Mexico's%20Water%20Quality%20Classification.ipynb)
 
 **🔗 Dataset**: [`agua_superficial_4.csv`](./agua_superficial_4.csv)
 
+---
 #### 📚 Overview
 - **Objective**:  
   Develop a supervised classification model to categorize surface water samples into quality classes (“Verde” 🟩, “Amarillo” 🟨, “Rojo” 🟥) based on physico-chemical parameters, thereby enabling authorities and stakeholders to identify safe versus unsafe water bodies.  
@@ -14,7 +14,7 @@
     - **Amarillo (Yellow)**: Intermediate risk; may require additional treatment.  
     - **Rojo (Red)**: Unsafe; high levels of contaminants.  
   - **Citation**: Sourced from environmental monitoring databases (governmental or academic repositories); loaded via `pd.read_csv("agua_superficial_4.csv")`.
-
+---
 #### 🧠 Methodology
 1. **Data Cleaning & Preprocessing**  
    - **Drop non-predictive columns**: Removed identifiers and geospatial metadata that do not contribute to model performance:  
@@ -56,13 +56,13 @@
      - Integrate into a web dashboard for real-time water quality monitoring.  
      - Schedule periodic retraining as new samples are collected.  
    - **Key Takeaway**: A data-driven approach with ensemble methods can reliably classify water quality and support environmental decision-making.  
-
+---
 #### 🔧 Technologies Used
 - **Python 3.x**  
 - **pandas & NumPy** for data manipulation  
 - **scikit-learn** for preprocessing, model training, and hyperparameter tuning  
 - **Matplotlib & Seaborn** for exploratory data visualization  
-
+---
 #### 🌐 Practical Application
 Local environmental agencies and water treatment facilities can leverage this model to:  
 - **Prioritize testing resources** toward high-risk sites (predicted “Rojo”).  
