@@ -7,12 +7,12 @@
 ---
 #### 📚 Overview
 - **Objective**:  
-  Develop a supervised classification model to categorize surface water samples into quality classes (“Verde” 🟩, “Amarillo” 🟨, “Rojo” 🟥) based on physico-chemical parameters, thereby enabling authorities and stakeholders to identify safe versus unsafe water bodies.  
+  Develop a supervised classification model to categorize surface water samples into quality classes based on physico-chemical parameters, thereby enabling authorities and stakeholders to identify safe versus unsafe water bodies.  
 - **Dataset**:  
   - **“agua_superficial_4.csv”**: Contains measurements of physico-chemical indicators (e.g., pH, turbidity, dissolved oxygen, nitrates, phosphates) for multiple sampling sites across various regions. Each row corresponds to a single observation at a given location and time. The target variable `SEMAFORO` (Spanish for “traffic light”) indicates water quality:  
-    - **Verde (Green)**: Safe for human consumption and aquatic life.  
-    - **Amarillo (Yellow)**: Intermediate risk; may require additional treatment.  
-    - **Rojo (Red)**: Unsafe; high levels of contaminants.  
+    - **"Verde" 🟩**: Safe for human consumption and aquatic life.  
+    - **"Amarillo" 🟨**: Intermediate risk; may require additional treatment.  
+    - **"Rojo" 🟥**: Unsafe; high levels of contaminants.  
   - **Citation**: Sourced from environmental monitoring databases (governmental or academic repositories); loaded via `pd.read_csv("agua_superficial_4.csv")`.
 ---
 #### 🧠 Methodology
